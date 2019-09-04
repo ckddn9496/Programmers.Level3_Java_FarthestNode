@@ -7,6 +7,7 @@ input으로 Node의 개수 n, Node간 edge들에 대한 정보 int[][] edge가 �
 
 ### 2. 풀이
 문제: https://www.welcomekakao.com/learn/courses/30/lessons/49189
+
 1번 노드로 부터 시작하여 BFS 알고리즘을 통해 해결한 문제. BFS를 사용하였으므로 Queue를 이용하였다. 시작 노드로 부터 인접한 노드로 퍼저나갈 때, 아직 지나가지 않은 노드면 count를 +1 해주며 1번 노드로 부터의 거리를 계산 하였다.
 ```java
 boolean[] visit = new boolean[n];
